@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body{
+ /* background-image: url(./assets/img1.png); */
+ background: linear-gradient(rgba(0, 0, 0, 0.7)50%,rgba(0, 0, 0, 0.7)50%) ,url(./assets/img1.png);
+ background-position: center;
+ background-size: cover;
+	height: 100vh;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+nav{
+  width: 100vw;
+  height: 15vh;
+ 
+  display: flex;
+ 
+  align-items: center;
+}
+.logo{
+  margin-top: 35px;
+  margin-left: 40px;
+}
+div ul{
+  margin-left: 300px;
+  display: flex;
+}
+div ul li{
+  list-style: none;
+   margin: 0px 20px;
+}
+.list-item{
+  color: #E8BD0D;
+}
+.button-small{
+  margin-left: 400px;
+  font-size: 18px;
+  width: 90px;
+  height: 30px;
+
+}
+.my{
+  background-color: #FF6263;
+  color: #ffffff;
+  border: none;
+}
+.hero{
+  text-align: center;
+}
+.hero-heading{
+  font-size: 64px;
+  color: #E8BD0D;
+}
+.button-large{
+  height: 40px;
+  width: 160px;
+  margin-top: 22px;
+}
+.hero div img{
+  
+  margin-top: 130px;
+  margin-left: 1000px;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
