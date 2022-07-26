@@ -39,7 +39,7 @@ div ul li{
   color: #E8BD0D;
 }
 .button-small{
-  margin-left: 400px;
+  margin-left: 350px;
   font-size: 18px;
   width: 90px;
   height: 30px;
@@ -49,8 +49,10 @@ div ul li{
   background-color: #FF6263;
   color: #ffffff;
   border: none;
+  transition: 0.5s;
 }
 .hero{
+  margin-top: 100px;
   text-align: center;
 }
 .hero-heading{
@@ -63,9 +65,13 @@ div ul li{
   margin-top: 22px;
 }
 .hero div img{
-  
-  margin-top: 130px;
+  margin-top: 30px;
   margin-left: 1000px;
+}
+.my:hover{
+  transform: scale(1.1);
+  border-radius: 20px;
+
 }
 /* ------------------------------ */
 /* ---------- HERO ------------ */
