@@ -9,7 +9,7 @@
  My Live Deployed Website Link :- [Click here !](https://project-02-retaurant-website-template.netlify.app/)
 
  
- ![](./image/web-page.jpg)
+ ![](./assets/web-page.png)
 
  ## What I have learned in this project .
  - In this project I have learned alout adding an image in background and how I blur that image. .
