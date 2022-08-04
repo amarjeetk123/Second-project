@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Red Rose", cursive;
+  box-sizing: border-box;
 }
 body{
  /* background-image: url(./assets/img1.png); */
@@ -16,40 +17,60 @@ body{
 /* ---------- NAVBAR ------------ */
 /* ------------------------------ */
 nav{
-  width: 100vw;
-  height: 15vh;
- 
   display: flex;
- 
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  display: flex;
   align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+  padding: 20px 0;
 }
 .logo{
   margin-top: 35px;
   margin-left: 40px;
 }
 div ul{
-  margin-left: 300px;
   display: flex;
 }
 div ul li{
+  width: 200px;
+  padding: 6px 6px;
   list-style: none;
    margin: 0px 20px;
+   text-align: center;
+   font-size: 25px;
+  
+}
+div ul li:hover{
+  border: 2px solid #E8BD0D;
+  transition: 0.5s;
+  background-color: transparent;
+  
 }
 .list-item{
   color: #E8BD0D;
+  border-radius: 10px;
 }
-.button-small{
-  margin-left: 350px;
-  font-size: 18px;
+.button button{
+  font-size: 30px;
   width: 90px;
-  height: 30px;
-
-}
-.my{
+  height: 50px;
+  width: 200px;
   background-color: #FF6263;
   color: #ffffff;
   border: none;
   transition: 0.5s;
+  border-radius: 10px;
+
+}
+.button button:hover{
+  background: transparent;
+  color: #E8BD0D;
+  border: 2px solid #E8BD0D;
+  transition: 0.5s;
+  background-color: transparent;
 }
 .hero{
   margin-top: 100px;
@@ -59,20 +80,57 @@ div ul li{
   font-size: 64px;
   color: #E8BD0D;
 }
-.button-large{
-  height: 40px;
-  width: 160px;
-  margin-top: 22px;
-}
 .hero div img{
   margin-top: 30px;
   margin-left: 1000px;
 }
-.my:hover{
-  transform: scale(1.1);
-  border-radius: 20px;
-
+.second-btn{
+  margin-top: 30px;
 }
+
 /* ------------------------------ */
 /* ---------- HERO ------------ */
 /* ------------------------------ */
+@media screen and (max-width:1190px){
+  /* body{
+    background: red;
+  }
+   */
+   .fist-btn{
+    margin: 30px auto;
+   }
+   .list{
+    margin: 30px auto 10px;
+   }
+   .bottom{
+    
+    max-lines: -300px;
+   }
+   .hero div img{
+    margin: 50px auto;
+
+   }
+  
+}
+@media screen and (max-width:1010px){
+ 
+  .list-item{
+    width: 170px;
+   
+  }
+}
+@media screen and (max-width:840px){ 
+  .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+   .list{
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .list-item{
+    margin: 20px auto;
+   }
+  
+}
